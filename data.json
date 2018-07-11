@@ -1,0 +1,29 @@
+{
+"profile":{
+"name":"ANUSHA",
+"email":"boyina.anusha18@gmail.com",
+"mobile":"9823899999",
+"image":"image.png",
+"address":"pvpsit"
+},
+"career":{
+  "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+},
+"education":[
+  {
+    "degree":"B-Tech",
+    "institute":"pvpsit",
+    "data":["2016-20","96%"]
+  },
+  {
+    "degree":"Intermediate",
+    "institute":"sri chaitanya junior college",
+    "data":["2014-16","95.8%"]
+  },
+  {
+    "degree":"SSC",
+    "institute":"HOLY CROSS",
+    "data":["2013-14","97%"]
+  }
+]
+}
