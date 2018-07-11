@@ -31,6 +31,8 @@ var newFile=loadJSON("data.json");
   console.log(data);
   career(data.career);
   education(data.education);
+  skills(data.skills);
+  Achievements(data.Achievements);
 })
 var childTwo=document.querySelector(".childtwo");
 function career(careerObj)
@@ -64,4 +66,34 @@ function education(edu){
   eduUl.appendChild(eduLi2);
   childTwo.appendChild(eduUl);
 }
+}
+function skills(skillInfo){
+  var educationheading=document.createElement("h2");
+  educationheading.textContent="Technical Skills";
+  childTwo.appendChild(educationheading);
+  var hr=document.createElement("hr");
+  childTwo.appendChild(hr);
+  var skillTable=document.createElement("table");
+  skillTable.border="1";
+  childTwo.appendChild(skillTable);
+  var tableData="";
+  for(i=0;i<skillInfo.length;i++){
+    tableData+="<tr><td>"+skillInfo[i].title+"</td><td>"+skillInfo[i].info+"</td></tr>";
+  }
+  skillTable.innerHTML=tableData;
+}
+function Achievements(achInfo) {
+  var educationheading=document.createElement("h2");
+  educationheading.textContent="Achievements";
+  childTwo.appendChild(educationheading);
+  var hr=document.createElement("hr");
+  childTwo.appendChild(hr);
+  var ul=document.createElement("ul");
+  childTwo.appendChild(ul);
+  var li="";
+  for(var i=0;i<achInfo.length;i++)
+  {
+    li+="<li>"+achInfo[i].info+"</li>";
+    ul.innerHTML=li;
+  }
 }

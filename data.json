@@ -25,5 +25,35 @@
     "institute":"HOLY CROSS",
     "data":["2013-14","97%"]
   }
+],
+"skills":[
+  {
+    "title":"Programming Languages",
+    "info":["C","C++","Python","Java","Ruby","R"]
+  },
+  {
+    "title":"Databases",
+    "info":["Oracle","Sql","Mysql"]
+  },
+  {
+    "title":"Operating Systems",
+    "info":["Windows","Mac","Unix","KaliLinux"]
+  },
+  {
+    "title":"Web Technologies",
+    "info":["HTML","CSS","XML","JavaScript"]
+  }
+],
+"Achievements":[
+{
+    "info":"Tayed under budget for X years/quarters"
+
+},
+{
+  "info":"got 1st prize in GD"
+},
+{
+  "info":"got 1st prize in Programming"
+}
 ]
 }
